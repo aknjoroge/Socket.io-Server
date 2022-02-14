@@ -18,6 +18,7 @@ let io = new Server(server, {
     origin: [
       "http://localhost:3000",
       "https://a-socket-server.web.app/",
+      "https://a-socket-server.web.app/login",
       "http://localhost",
     ],
   },
