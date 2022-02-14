@@ -10,7 +10,13 @@ const server = http.createServer(app);
 let { Server } = require("socket.io");
 //initialize socket io
 let io = new Server(server, {
-  cors: { origin: ["http://localhost:3000", "http://localhost"] },
+  cors: {
+    origin: [
+      "http://localhost:3000",
+      "https://a-socket-server.web.app/",
+      "http://localhost",
+    ],
+  },
 });
 
 //require the middlware
