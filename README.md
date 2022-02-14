@@ -2,8 +2,6 @@
 
 ---
 
-## Hosted on heroku : [https://a-socket-server.herokuapp.com/](https://a-socket-server.herokuapp.com/)
-
 ## Socket.io V.4 Chat Application (No Database)
 
 ---
@@ -38,12 +36,6 @@
 6.  ### Add private messaging.
 
 - Implemented through private groups and direct messages, I use socket io and its instance to create rooms and broadcast to name spaces
-
----
-
-## Preview
-
-### This project is Hosted [Here https://a-socket-server.web.app/](https://a-socket-server.web.app/)
 
 ---
 
