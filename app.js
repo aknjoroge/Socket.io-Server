@@ -2,6 +2,10 @@
 let express = require("express");
 //initialize express
 let app = express();
+let cors = require("cors");
+app.use(cors());
+app.options("*", cors());
+app.enable("trust proxy");
 //require https module
 const http = require("http");
 //initialize a server
