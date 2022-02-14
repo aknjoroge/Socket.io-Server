@@ -15,12 +15,8 @@ let { Server } = require("socket.io");
 //initialize socket io
 let io = new Server(server, {
   cors: {
-    origin: [
-      "http://localhost:3000",
-      "https://a-socket-server.web.app/",
-      "https://a-socket-server.web.app/login",
-      "http://localhost",
-    ],
+    origin: ["https://a-socket-server.web.app", "http://localhost:3000"],
+    allowedHeaders: ["socket-allow"],
   },
 });
 
