@@ -1,0 +1,30 @@
+{
+  "name": "socket-io-server",
+  "version": "1.0.0",
+  "description": "A socket server using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknjoroge/Socket.io-Server.git"
+  },
+  "keywords": [
+    "socketio",
+    "express",
+    "socketio"
+  ],
+  "author": "aknjoroge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aknjoroge/Socket.io-Server/issues"
+  },
+  "homepage": "https://github.com/aknjoroge/Socket.io-Server#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
