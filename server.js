@@ -1,7 +1,7 @@
 let server = require("./app");
 
 //creating a server using express object
-let port = 4000;
+let port = Process.env.PORT || 4000;
 
 // let server = app.listen(port, function () {
 server.listen(port, function () {
